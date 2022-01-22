@@ -44,7 +44,7 @@ public class TicTacToe {
         }
 
         // иначе переключаем игрока на следующего
-        newPlayer = newPlayer.equals("X") ? "0" : "X"; //!!!!! Как тут работает вопросительный знак????
+        newPlayer = newPlayer.equals("X") ? "0" : "X"; //!!!!! Как тут работает вопросительный знак???
         return "Move completed";
     }
 
